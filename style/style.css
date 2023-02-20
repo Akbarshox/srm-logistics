@@ -535,4 +535,17 @@ rs-slides, rs-slide, rs-slide:before {
 #qodef-side-area-inner {
   margin-top: -100px !important;
 }
+
+.qodef-grid-inner .clear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.wp-image-2178 {
+  width: 300px;
+}
 /*# sourceMappingURL=style.css.map */
