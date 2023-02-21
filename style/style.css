@@ -548,4 +548,35 @@ rs-slides, rs-slide, rs-slide:before {
 .wp-image-2178 {
   width: 300px;
 }
+
+.qodef-grid-inner.clear {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.qodef-social-icons-group {
+  width: 150px;
+}
+
+.qodef-e-inner {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.qodef-m-inner {
+  background: url(../assets/track-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.elementor-section.elementor-top-section.elementor-element.elementor-element-ee4caa5.elementor-section-full_width {
+  background: url(../assets/track-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
 /*# sourceMappingURL=style.css.map */
