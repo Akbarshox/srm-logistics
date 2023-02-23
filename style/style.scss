@@ -474,16 +474,23 @@ rs-slides, rs-slide, rs-slide:before {
 #qodef-side-area-inner {
     margin-top: -100px !important;
 }
-.qodef-grid-inner .clear{
+.meet-the-teams{
+    width: 100% !important;
     display: flex;
     justify-content: center !important;
+
+    @media (max-width:600px) {
+        width: 100% !important;
+        margin: 0;
+        flex-direction: column !important;
+        align-items: center;
+    }
 }
 .wp-image-2178 {
     width: 300px;
 }
-#qodef-page-footer-middle-area-inner {
-  
-}
+
+
 .qodef-grid-inner.clear {
     justify-content: space-between;
 }
@@ -504,4 +511,13 @@ rs-slides, rs-slide, rs-slide:before {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+//  .qodef-e-inner {
+//      margin-left: 120px;
+//    }
+.elementor-container.elementor-column-gap-no{
+    padding: 0 !important;
+}
+.elementor-container.elementor-column-gap-default{
+    padding: 0 !important;
 }
