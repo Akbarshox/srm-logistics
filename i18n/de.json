@@ -1,0 +1,13 @@
+{
+  "home": "Home",
+  "pricing": "Services",
+  "contactus": "Contact us",
+  "aboutus": "About us",
+
+  "service": {
+    "service": "Unser Angebot",
+    "service1": "Wir",
+    "service2": "Während"
+  }
+
+}
