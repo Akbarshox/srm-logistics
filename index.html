@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
 <head>
    <!-- Google tag (gtag.js) -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LQL738PYWS"></script>
    <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+
+      function gtag() {
+         dataLayer.push(arguments);
+      }
+
       gtag('js', new Date());
 
       gtag('config', 'G-LQL738PYWS');
@@ -20,11 +24,19 @@
    <title>SRM Logistic &#8211; Transportation and Logistics Theme</title>
    <meta name='robots' content='max-image-preview:large'/>
    <!-- Google Tag Manager -->
-   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-   })(window,document,'script','dataLayer','GTM-K974CQN');</script>
+   <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+         'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+   })(window, document, 'script', 'dataLayer', 'GTM-K974CQN');</script>
    <!-- End Google Tag Manager -->
    <script data-cfasync="false" data-pagespeed-no-defer>
       var gtm4wp_datalayer_name = "dataLayer";
@@ -708,8 +720,10 @@
    class="home page-template page-template-page-full-width page-template-page-full-width-php page page-id-50 qode-framework-1.1.7 qodef-qi--no-touch qi-addons-for-elementor-1.5.4 qodef-back-to-top--enabled qodef-custom-cursor--enabled qodef-fullscreen-menu--hide-logo qodef-fullscreen-menu--hide-widget-area  qodef-content-behind-header qodef-header--standard qodef-header-appearance--sticky qodef-header--transparent qodef-content--behind-header qodef-mobile-header--standard qodef-drop-down-second--full-width qodef-drop-down-second--default globefarer-core-1.0 globefarer-1.0 qodef-content-grid-1400 qodef-header-standard--right elementor-default elementor-kit-7709 elementor-page elementor-page-50"
    itemscope itemtype="https://schema.org/WebPage">
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K974CQN"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K974CQN"
+           height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
@@ -856,7 +870,7 @@
             <ul id="menu-main-menu-1" class="menu">
                <li
                   class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-757 qodef--hide-link qodef-menu-item--narrow">
-                  <a onclick="JavaScript: return false;"><span class="qodef-menu-item-text">Homes<svg
+                  <a onclick="JavaScript: return false;"><span class="qodef-menu-item-text" data-i18n="home">Home123<svg
                      class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
                      xmlns:xlink="http://www.w3.org/1999/xlink" width="8.485" height="14.14" viewBox="0 0 8.485 14.14"><path
                      d="M0,0H10V2H0Z" transform="translate(8.485 7.069) rotate(135)"/><path d="M0,0H10V2H0Z"
@@ -1215,10 +1229,11 @@
             <div class="widget widget_globefarer_core_order_tracking" data-area="header-light">
                <div class="qodef-order-tracking">
                   <!-- Slector Language -->
-                  <div class="custom-select" style="width:100px;">
-                     <select>
-                        <option value="1">EN</option>
-                        <!--                        	  <option value="1">RU</option>-->
+                  <div class="fform">
+                     <label for="language-picker-select" data-i18n="langselect">Select language</label>
+                     <select name="language-picker-select" id="language-picker-select">
+                        <option lang="de" value="de">Deutsch</option>
+                        <option lang="en" value="en" selected>English</option>
                      </select>
                   </div>
 
@@ -1278,7 +1293,8 @@
                <ul id="menu-main-menu-2" class="menu">
                   <li
                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-757 qodef--hide-link qodef-menu-item--narrow">
-                     <a onclick="JavaScript: return false;"><span class="qodef-menu-item-text"><a href="./index.html">Homes</a<svg
+                     <a onclick="JavaScript: return false;"><span class="qodef-menu-item-text"><a href="./index.html"
+                                                                                                  data-i18n="home">Home</a><svg
                         class="qodef-svg--menu-arrow qodef-menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" width="8.485" height="14.14"
                         viewBox="0 0 8.485 14.14"><path d="M0,0H10V2H0Z"
@@ -2008,8 +2024,10 @@
                                                 <h2 class="qodef-m-title">
                                                    Great &amp; affordable courier transport </h2>
                                                 <p class="qodef-m-text">
-                                                   Rail freight transportation is the best option for the ratio of cost and delivery time of goods. Used rolling stock: covered wagons, and thermos flasks
-                                                 </p>
+                                                   Rail freight transportation is the best option for the ratio of cost
+                                                   and delivery time of goods. Used rolling stock: covered wagons, and
+                                                   thermos flasks
+                                                </p>
                                                 <a class="qodef-shortcode qodef-m qodef-m-button qodef-button qodef-layout--textual  qodef-html--link"
                                                    href="./OurServices.html" target="_self"> <span
                                                    class="qodef-m-button-icon"><svg class="qodef-svg--plus"
@@ -2037,8 +2055,10 @@
                                                 <h2 class="qodef-m-title">
                                                    Secure courier for small &amp; big packages </h2>
                                                 <p class="qodef-m-text">
-                                                   One of the most convenient and economical types of cargo delivery is automobile cargo transportation.
-                                                   Delivery by road is the leader among other types of transportation</p>
+                                                   One of the most convenient and economical types of cargo delivery is
+                                                   automobile cargo transportation.
+                                                   Delivery by road is the leader among other types of
+                                                   transportation</p>
                                                 <a class="qodef-shortcode qodef-m qodef-m-button qodef-button qodef-layout--textual  qodef-html--link"
                                                    href="./Services.html" target="_self"> <span
                                                    class="qodef-m-button-icon"><svg class="qodef-svg--plus"
@@ -2066,7 +2086,8 @@
                                                 <h2 class="qodef-m-title">
                                                    Any location and any time we’ll be there </h2>
                                                 <p class="qodef-m-text">
-                                                   Cargo transportation by various means of transport was called multimodal transportation </p>
+                                                   Cargo transportation by various means of transport was called
+                                                   multimodal transportation </p>
                                                 <a class="qodef-shortcode qodef-m qodef-m-button qodef-button qodef-layout--textual  qodef-html--link"
                                                    href="#" target="_self"> <span
                                                    class="qodef-m-button-icon"><svg class="qodef-svg--plus"
@@ -2094,7 +2115,9 @@
                                                 <h2 class="qodef-m-title">
                                                    Quality packing material for items </h2>
                                                 <p class="qodef-m-text">
-                                                   The company "Srm Logistics" provides high-quality "air transportation" services. Order air cargo transportation in our company. </p>
+                                                   The company "Srm Logistics" provides high-quality "air
+                                                   transportation" services. Order air cargo transportation in our
+                                                   company. </p>
                                                 <a class="qodef-shortcode qodef-m qodef-m-button qodef-button qodef-layout--textual  qodef-html--link"
                                                    href="./OurServices.html" target="_self"> <span
                                                    class="qodef-m-button-icon"><svg class="qodef-svg--plus"
@@ -2283,7 +2306,10 @@
                                              <h4 class="qodef-m-title">
                                                 <span class="qodef-m-title-text">Rail Freight</span>
                                              </h4>
-                                             <p class="qodef-m-text" style="margin-top: 18px">Rail freight transportation is the best option for the ratio of cost and delivery time of goods. Rolling stock used: covered wagons, and thermos flasks; refrigerated sections.</p>
+                                             <p class="qodef-m-text" style="margin-top: 18px">Rail freight
+                                                transportation is the best option for the ratio of cost and delivery
+                                                time of goods. Rolling stock used: covered wagons, and thermos flasks;
+                                                refrigerated sections.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -2309,7 +2335,9 @@
                                              <h4 class="qodef-m-title">
                                                 <span class="qodef-m-title-text">Land Freight</span>
                                              </h4>
-                                             <p class="qodef-m-text" style="margin-top: 18px">"Srm ​​Logistics" provides excellent "oversized transportation" services to European or Asian countries.</p>
+                                             <p class="qodef-m-text" style="margin-top: 18px">"Srm ​​Logistics" provides
+                                                excellent "oversized transportation" services to European or Asian
+                                                countries.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -2335,8 +2363,10 @@
                                              <h4 class="qodef-m-title">
                                                 <span class="qodef-m-title-text">Air Freight</span>
                                              </h4>
-                                             <p class="qodef-m-text" style="margin-top: 18px">The company "Srm Logistics" provides high-quality "air transportation" services.
-                                                Order air cargo transportation in our company, and you will be convinced of the best ratio of a high level of quality and affordable prices!</p>
+                                             <p class="qodef-m-text" style="margin-top: 18px">The company "Srm
+                                                Logistics" provides high-quality "air transportation" services.
+                                                Order air cargo transportation in our company, and you will be convinced
+                                                of the best ratio of a high level of quality and affordable prices!</p>
                                           </div>
                                        </div>
                                     </div>
@@ -2366,9 +2396,11 @@
                                              <h2 itemprop="name" class="qodef-m-title" style="margin-bottom: 29px">
                                                 Secure courier for all your packages </h2>
                                              <p class="qodef-m-text">
-                                                This type of courier service will maximally reduce the time you take to ship, while at the same time,
-                                                 it will deliver at the expense of the professionalism of the couriers and the original packaging,
-                                                  keeping valuable wrapper and shipments. </p>
+                                                This type of courier service will maximally reduce the time you take to
+                                                ship, while at the same time,
+                                                it will deliver at the expense of the professionalism of the couriers
+                                                and the original packaging,
+                                                keeping valuable wrapper and shipments. </p>
                                              <a class="qodef-shortcode qodef-m qodef-m-button qodef-button qodef-layout--textual  qodef-html--link"
                                                 href="./AboutUs.html" target="_self"> <span class="qodef-m-button-icon"><svg
                                                 class="qodef-svg--plus" xmlns="http://www.w3.org/2000/svg"
@@ -3068,7 +3100,7 @@ Discover </span>
                   <p><a
                      style="color: #ffffff; font-size: 17px; line-height: 22px; font-weight: 700; letter-spacing: -0.01em"
                      href="#"><span class="__cf_email__"
-                                                                                                   data-cfemail="3a5d5655585f7a5f425b574a565f14595557">[email&#160;protected]</span></a>
+                                    data-cfemail="3a5d5655585f7a5f425b574a565f14595557">[email&#160;protected]</span></a>
                   </p>
                </div>
             </div>
@@ -3873,7 +3905,7 @@ Discover </span>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
-
 <script src="./js/selector.js"></script>
+<script type="module" src="js/index.js" type="text/javascript"></script>
 </body>
 </html>

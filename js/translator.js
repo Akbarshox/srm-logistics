@@ -9,8 +9,8 @@ class Translator {
     }
 
     if (
-      this._options.defaultLanguage &&
-      typeof this._options.defaultLanguage == "string"
+       this._options.defaultLanguage &&
+       typeof this._options.defaultLanguage == "string"
     ) {
       this._getResource(this._options.defaultLanguage);
     }
@@ -24,8 +24,8 @@ class Translator {
     }
 
     var lang = navigator.languages
-      ? navigator.languages[0]
-      : navigator.language;
+       ? navigator.languages[0]
+       : navigator.language;
 
     return lang.substr(0, 2);
   }
@@ -33,12 +33,12 @@ class Translator {
 
   _fetch(path) {
     return fetch(path)
-      .then(response => response.json())
-      .catch(() => {
-        console.error(
-          `Could not load ${path}. Please make sure that the file exists.`
-        );
-      });
+       .then(response => response.json())
+       .catch(() => {
+         console.error(
+            `Could not load ${path}. Please make sure that the file exists.`
+         );
+       });
   }
 
 
@@ -75,7 +75,7 @@ class Translator {
 
     if (typeof key != "string")
       throw new Error(
-        `Expected a string for the key parameter, got ${typeof key} instead.`
+         `Expected a string for the key parameter, got ${typeof key} instead.`
       );
 
     var translation = await this._getResource(lang);
@@ -88,7 +88,7 @@ class Translator {
 
     if (!text && this._options.defaultLanguage && fallback) {
       let fallbackTranslation = JSON.parse(
-        this._cache.get(this._options.defaultLanguage)
+         this._cache.get(this._options.defaultLanguage)
       );
 
       text = this._getValueFromJSON(key, fallbackTranslation, false);
@@ -107,13 +107,13 @@ class Translator {
     var replace = element => {
       var keys = nullSafeSplit(element.getAttribute("data-i18n"), " ") || [];
       var properties = nullSafeSplit(
-        element.getAttribute("data-i18n-attr"),
-        " "
+         element.getAttribute("data-i18n-attr"),
+         " "
       ) || ["innerHTML"];
 
       if (keys.length > 0 && keys.length !== properties.length) {
         console.error(
-          "data-i18n and data-i18n-attr must contain the same number of items"
+           "data-i18n and data-i18n-attr must contain the same number of items"
         );
       } else {
         var pairs = zip(keys, properties);
@@ -137,7 +137,7 @@ class Translator {
   get defaultConfig() {
     return {
       persist: false,
-      languages: ["en"],
+      languages: ["en", "de"],
       defaultLanguage: "",
       detectLanguage: false,
       filesLocation: "https://mukhammadjon-jalolov.github.io/itdevsite/i18n"
