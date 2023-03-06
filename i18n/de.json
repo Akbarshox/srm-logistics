@@ -1,8 +1,11 @@
 {
-  "home": "German",
-  "pricing": "Services",
-  "contactus": "Contact us",
-  "aboutus": "About us",
+  "home": "Домой",
+  "abouts": "О нас",
+  "serviz": "Услуга",
+  "contact": "Контакт",
+  "slaydmatn": "Общемировой доставка и профессиональные решения",
+  "fastserviz": "Быстрые и надежные услуги доставки",
+
 
   "service": {
     "service": "Unser Angebot",

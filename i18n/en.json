@@ -1,8 +1,12 @@
 {
   "home": "Home",
-  "pricing": "Services",
-  "contactus": "Contact us",
-  "aboutus": "About us",
+  "abouts": "About us",
+  "serviz": "Services",
+  "contact": "Contact",
+  "slaydmatn": "Worldwide shipping and professional solutions",
+  "fastserviz": "Fast and reliable shipping services",
+
+
 
   "service": {
     "service": "What we do",
