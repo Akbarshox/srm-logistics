@@ -2,7 +2,7 @@ import Translator from "./translator.js";
 
 var translator = new Translator({
    persist: false,
-   languages: ["en", "de"],
+   languages: ["en", "ru"],
    defaultLanguage: "en",
    detectLanguage: true,
    filesLocation: "/i18n"
@@ -10,8 +10,8 @@ var translator = new Translator({
 
 if (localStorage.getItem("currentLang")) {
    translator.load(localStorage.getItem("currentLang"));
-   if (localStorage.getItem("currentLang") === "de") {
-      translator.load("de");
+   if (localStorage.getItem("currentLang") === "ru") {
+      translator.load("ru");
    }
 } else {
    translator.load("en");
@@ -20,10 +20,10 @@ if (localStorage.getItem("currentLang")) {
 
 document.querySelector("select").addEventListener("change", function (evt) {
    localStorage.setItem("currentLang", evt.target.value);
-   console.log(evt.target.value)
    translator.load(evt.target.value);
-   /*
-   if (evt.target.tagName === "INPUT") {
-     translator.load(evt.target.value);
-   } */
+   // if (evt.target.value === "ru") {
+   //    document.getElementById("matn").innerHTML = "Доставка по всему миру и профессиональные решения"
+   // } else {
+   //    document.getElementById("matn").innerHTML = "Worldwide shipping and professional solutions"
+   // }
 });

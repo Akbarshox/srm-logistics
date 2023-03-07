@@ -137,7 +137,7 @@ class Translator {
   get defaultConfig() {
     return {
       persist: false,
-      languages: ["en", "de"],
+      languages: ["en", "ru"],
       defaultLanguage: "",
       detectLanguage: false,
       filesLocation: "https://mukhammadjon-jalolov.github.io/itdevsite/i18n"
