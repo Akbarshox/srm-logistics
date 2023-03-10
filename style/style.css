@@ -64,7 +64,6 @@ style attribute {
 rs-layer-wrap, rs-mask, rs-module-wrap, rs-module .rs-layer, rs-module img {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -110,7 +109,6 @@ rs-module-wrap {
 
 .elementor {
   -webkit-hyphens: manual;
-  -ms-hyphens: manual;
   hyphens: manual;
 }
 
@@ -302,7 +300,6 @@ rs-slides, rs-slide, rs-slide:before {
   display: inline-block;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
