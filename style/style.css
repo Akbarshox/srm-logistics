@@ -546,4 +546,10 @@ rs-slides, rs-slide, rs-slide:before {
 
 .elementor-container.elementor-column-gap-default {
   padding: 0 !important;
+}
+
+.ui-tabs-anchor {
+  padding: 0 15px !important;
+  text-align: center !important;
+  display: flex !important;
 }/*# sourceMappingURL=style.css.map */

@@ -19,6 +19,8 @@
   "FAQPage":"FAQ Page",
   "GlobalNetwork":"Global Network",
   "Support247":"Support 24/7",
+  "footerInteractive": "2023 Qode Interactive, All Rights Reserved",
+ 
 
 
   "slaydmatn": "Worldwide shipping and professional solutions",
@@ -46,9 +48,8 @@
   "Srm1":"The company Srm Logistics provides high-quality air transportation services. Order air cargo transportation in our company, and you will be convinced of the best ratio of a high level of quality and affordable prices!",
   "OurDivisions":"Our Divisions",
   "RailFreight":"Rail Freight",
-  "ltlFreight":"LTL Freight",
   "MaritimeTransport":"Maritime Transport",
-
+  
 
   "МорскиеПеревозки":"Sea Freight",
   "КачественныйУпаковочныйМатериалДляТоваров":"Quality packing material for items",
@@ -73,12 +74,70 @@
 
 
 
-
-
+  
   "service": {
     "service": "What we do",
     "service1": "We offer full-time remote Software Developers from Central Asia, fitting your needs on a long-term basis. Regardless if you are looking for a newcomer to grow with your company or someone with more experience - we have the perfect match for you. Together we will find a developer in no time following our recruiting process as you see down below.",
     "service2": "The idea is to connect qualified Software Developers from Central Asia to the European market, because we know it is hard to find someone who is qualified and affordable too. Moreover, we want to enable companies to save money, expand their capabilities and get more competitive."
-  }
+  },
   
+  
+  "aboutPage": {},
+  "airFreight": "Air Freight",
+  "railFreight": "Rail Freight",
+  "ltlFreight":"LTL Freight",
+  "seaFreight": "Sea Freight",
+  "landFreight": "Land Freight",
+  "wareHousing": "Warehousing",
+
+  "textFirstA": "Secure courier for small & big packages",
+  "textFirstB": "Reliable and fast convenient with us.",
+
+  "yellowCartText1": "Delivered Packages",
+  "yellowCartText2": "KM Per Month",
+  "yellowCartText3": "Tons Of Goods",
+  "yellowCartText4": "Satisfied Clients",
+
+  "textSecondA": "We have all your needs, from start to the very end",
+  "textSecondB": "Providing an independent advice and identifying the right fit for you. Services are sourced",
+
+  "buttonsAboutPage1": "View more ",
+  "buttonsAboutPage2": "about our service",
+  
+  "servicesPage": {},
+  "serviceTextFirstA": "Fast and professional shipping services",
+  "serviceTextFirstB": "Providing an independent advice and identifyi ng the right fit for you. Services are sourced",
+  "solution": "Solution",
+
+  "roadTransport": "Road Transport",
+  "roadTransportDescription": "Road transport. We are an experienced specialist in road logistics combined with an efficient transport network aiming to provide high quality service to all customers. Regardless of the size and weight of your product, we offer the ability to transport...",
+  "railwayTransport": "Railway Transport",
+  "railwayTransportDescription": "Rail transport allows businesses to send goods from one place to another for transportation. It is more convenient to transport heavy and bulky goods by rail. In addition, you will get rid of unnecessary expenses. The advantage of rail transport is that there is no traffic on the road like road transport...",
+  "airTransport": "Air Transport",
+  "airTransportDescription": "Air freight. We provide a complete, integrated import and export air cargo service worldwide with a global network of offices and well-established agents. Our experienced and skilled staff offer excellent customer service...",
+  "oceanFreight": "Ocean Freight",
+  "oceanFreightDescription": "Ocean freight. We provide a complete, integrated import and export air cargo service worldwide with a global network of offices and well-established agents. Our experienced and skilled staff offer excellent customer service...",
+  
+  "railDescription": "Rail freight transportation is the best option for the ratio of cost and delivery time of goods. Rolling stock used: covered wagons, and thermos flasks; refrigerated sections.",
+  "landDescription": " 'Srm ​​Logistics' provides excellent 'oversized transportation' services to European or Asian countries.",
+  "airDescription": "The company 'Srm Logistics' provides high-quality 'air transportation' services. Order air cargo transportation in our company, and you will be convinced of the best ratio of a high level of quality and affordable prices!",
+
+  "bottomTextTitle": "Fast & secure courier for all your packages",
+  "bottomTextDescription": "'Srm Logistics' - a freight forwarding company offers you a range of services for the organization of road and rail cargo transportation from Uzbekistan to the Middle East, China, UAE, Pakistan, India, Vietnam, Malaysia, Singapore, etc. and back, from the Middle East to Uzbekistan.",
+
+  "statisticNumberFirst": "Order air cargo transportation in our company, and you will be convinced of the best ratio of a high level of quality and affordable prices!",
+  "statisticNumberSecond": "'Srm ​​Logistics' provides excellent 'oversized transportation' services to European or Asian countries.",
+  
+
+
+  "contactPage": {},
+  "ourAddress": "Our Address",
+  "aountryUzb": "Uzbekistan:",
+  "addressUzb": "Tashkent, Yunusabad district, Malaya koltsevaya/ dor.44. Landmark: Badamzar/Grand Somsa.",
+  "countryChina": "China:",
+  "addresChina": "Room E06-1, Building A, Zhongtou International, No. 10, Jinye 1st Road, High-tech Zone, Xi'an, Shaanxi Province"
+  
+  
+
 }
+
